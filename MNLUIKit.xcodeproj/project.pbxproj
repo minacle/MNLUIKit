@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66111B1A226465A9000E5E8A /* MNLUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66111B0C226465A9000E5E8A /* MNLUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66111B272264672D000E5E8A /* MNLUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66111B252264672D000E5E8A /* MNLUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66111B282264672D000E5E8A /* MNLUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66111B262264672D000E5E8A /* MNLUIView.m */; };
+		66111B2E226467E2000E5E8A /* CGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 66111B2C226467E2000E5E8A /* CGColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66111B2F226467E2000E5E8A /* CGColor.c in Sources */ = {isa = PBXBuildFile; fileRef = 66111B2D226467E2000E5E8A /* CGColor.c */; };
+		66111B35226475CF000E5E8A /* _MNLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66111B33226475CF000E5E8A /* _MNLLayer.m */; };
+		66111B3C226478DA000E5E8A /* _MNLLayerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 66111B3A226478DA000E5E8A /* _MNLLayerObserver.m */; };
+		6693F1662268522D003A68C2 /* MNLUIGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6693F1642268522D003A68C2 /* MNLUIGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6693F1672268522D003A68C2 /* MNLUIGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6693F1652268522D003A68C2 /* MNLUIGradientView.m */; };
+		6693F16B2268528A003A68C2 /* _MNLGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6693F1692268528A003A68C2 /* _MNLGradientLayer.m */; };
+		6693F1712268559C003A68C2 /* _MNLLayerObservingPropertyName+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6693F1702268559C003A68C2 /* _MNLLayerObservingPropertyName+Gradient.m */; };
+		6693F17922685825003A68C2 /* _MNLGradientLayerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6693F17722685825003A68C2 /* _MNLGradientLayerObserver.m */; };
+		66B0117722659F53000B4291 /* MNLUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0117622659F53000B4291 /* MNLUIKitTests.swift */; };
+		66B0117922659F53000B4291 /* MNLUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66111B09226465A9000E5E8A /* MNLUIKit.framework */; };
+		66B011802265A304000B4291 /* MNLTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B0117F2265A304000B4291 /* MNLTestView.xib */; };
+		66B011822265A5E4000B4291 /* _MNLLayerObservingPropertyName.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B011812265A5E4000B4291 /* _MNLLayerObservingPropertyName.m */; };
+		66B1C5CB2268062300E70E36 /* MNLTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1C5CA2268062300E70E36 /* MNLTestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66B0117A22659F53000B4291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66111B00226465A9000E5E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66111B08226465A9000E5E8A;
+			remoteInfo = MNLUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66111B09226465A9000E5E8A /* MNLUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNLUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66111B0C226465A9000E5E8A /* MNLUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIKit.h; sourceTree = "<group>"; };
+		66111B0D226465A9000E5E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66111B252264672D000E5E8A /* MNLUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIView.h; sourceTree = "<group>"; };
+		66111B262264672D000E5E8A /* MNLUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNLUIView.m; sourceTree = "<group>"; };
+		66111B2C226467E2000E5E8A /* CGColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGColor.h; sourceTree = "<group>"; };
+		66111B2D226467E2000E5E8A /* CGColor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CGColor.c; sourceTree = "<group>"; };
+		66111B30226470EC000E5E8A /* _MNLViewLayerProjection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLViewLayerProjection.h; sourceTree = "<group>"; };
+		66111B32226475CF000E5E8A /* _MNLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLLayer.h; sourceTree = "<group>"; };
+		66111B33226475CF000E5E8A /* _MNLLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _MNLLayer.m; sourceTree = "<group>"; };
+		66111B362264761E000E5E8A /* _MNLLayerObserving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLLayerObserving.h; sourceTree = "<group>"; };
+		66111B39226478DA000E5E8A /* _MNLLayerObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLLayerObserver.h; sourceTree = "<group>"; };
+		66111B3A226478DA000E5E8A /* _MNLLayerObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _MNLLayerObserver.m; sourceTree = "<group>"; };
+		66111B3D22647C34000E5E8A /* _MNLLayerObservingPropertyName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLLayerObservingPropertyName.h; sourceTree = "<group>"; };
+		66111B4122648BA9000E5E8A /* _MNLLayerObservationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLLayerObservationDelegate.h; sourceTree = "<group>"; };
+		6693F1642268522D003A68C2 /* MNLUIGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIGradientView.h; sourceTree = "<group>"; };
+		6693F1652268522D003A68C2 /* MNLUIGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNLUIGradientView.m; sourceTree = "<group>"; };
+		6693F1682268528A003A68C2 /* _MNLGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLGradientLayer.h; sourceTree = "<group>"; };
+		6693F1692268528A003A68C2 /* _MNLGradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _MNLGradientLayer.m; sourceTree = "<group>"; };
+		6693F16C22685345003A68C2 /* _MNLGradientLayerObserving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLGradientLayerObserving.h; sourceTree = "<group>"; };
+		6693F16F226854B5003A68C2 /* _MNLLayerObservingPropertyName+Gradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_MNLLayerObservingPropertyName+Gradient.h"; sourceTree = "<group>"; };
+		6693F1702268559C003A68C2 /* _MNLLayerObservingPropertyName+Gradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_MNLLayerObservingPropertyName+Gradient.m"; sourceTree = "<group>"; };
+		6693F17622685825003A68C2 /* _MNLGradientLayerObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLGradientLayerObserver.h; sourceTree = "<group>"; };
+		6693F17722685825003A68C2 /* _MNLGradientLayerObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _MNLGradientLayerObserver.m; sourceTree = "<group>"; };
+		6693F17A22685BBA003A68C2 /* _MNLGradientLayerObservationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLGradientLayerObservationDelegate.h; sourceTree = "<group>"; };
+		6693F17E22686500003A68C2 /* _MNLGradientViewLayerProjection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLGradientViewLayerProjection.h; sourceTree = "<group>"; };
+		66B0117422659F53000B4291 /* MNLUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNLUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B0117622659F53000B4291 /* MNLUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNLUIKitTests.swift; sourceTree = "<group>"; };
+		66B0117822659F53000B4291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B0117F2265A304000B4291 /* MNLTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MNLTestView.xib; sourceTree = "<group>"; };
+		66B011812265A5E4000B4291 /* _MNLLayerObservingPropertyName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _MNLLayerObservingPropertyName.m; sourceTree = "<group>"; };
+		66B13B81226814DA000058FC /* MNLUIKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIKitTests.h; sourceTree = "<group>"; };
+		66B1C5CA2268062300E70E36 /* MNLTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNLTestViewController.swift; sourceTree = "<group>"; };
+		66B6D4ED2269C924008CF717 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66111B06226465A9000E5E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B0117122659F53000B4291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B0117922659F53000B4291 /* MNLUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66111AFF226465A9000E5E8A = {
+			isa = PBXGroup;
+			children = (
+				66B6D4ED2269C924008CF717 /* LICENSE */,
+				66111B0B226465A9000E5E8A /* MNLUIKit */,
+				66B0117522659F53000B4291 /* MNLUIKitTests */,
+				66111B0A226465A9000E5E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66111B0A226465A9000E5E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66111B09226465A9000E5E8A /* MNLUIKit.framework */,
+				66B0117422659F53000B4291 /* MNLUIKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66111B0B226465A9000E5E8A /* MNLUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				66111B0D226465A9000E5E8A /* Info.plist */,
+				66111B0C226465A9000E5E8A /* MNLUIKit.h */,
+				66111B3822647781000E5E8A /* MNLUIKit */,
+				66111B2A22646744000E5E8A /* CoreGraphics */,
+				66111B2322646654000E5E8A /* QuartzCore */,
+				66111B2422646677000E5E8A /* UIKit */,
+			);
+			path = MNLUIKit;
+			sourceTree = "<group>";
+		};
+		66111B2322646654000E5E8A /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				66111B32226475CF000E5E8A /* _MNLLayer.h */,
+				66111B33226475CF000E5E8A /* _MNLLayer.m */,
+				6693F1682268528A003A68C2 /* _MNLGradientLayer.h */,
+				6693F1692268528A003A68C2 /* _MNLGradientLayer.m */,
+			);
+			name = QuartzCore;
+			sourceTree = "<group>";
+		};
+		66111B2422646677000E5E8A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6693F17F226866BA003A68C2 /* View */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		66111B2A22646744000E5E8A /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				66111B2C226467E2000E5E8A /* CGColor.h */,
+				66111B2D226467E2000E5E8A /* CGColor.c */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		66111B3822647781000E5E8A /* MNLUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				66111B3E226485BA000E5E8A /* LayerObserver */,
+				66111B30226470EC000E5E8A /* _MNLViewLayerProjection.h */,
+				6693F16E2268547C003A68C2 /* GradientLayerObserver */,
+				6693F17E22686500003A68C2 /* _MNLGradientViewLayerProjection.h */,
+			);
+			name = MNLUIKit;
+			sourceTree = "<group>";
+		};
+		66111B3E226485BA000E5E8A /* LayerObserver */ = {
+			isa = PBXGroup;
+			children = (
+				66111B362264761E000E5E8A /* _MNLLayerObserving.h */,
+				66111B3D22647C34000E5E8A /* _MNLLayerObservingPropertyName.h */,
+				66B011812265A5E4000B4291 /* _MNLLayerObservingPropertyName.m */,
+				66111B39226478DA000E5E8A /* _MNLLayerObserver.h */,
+				66111B3A226478DA000E5E8A /* _MNLLayerObserver.m */,
+				66111B4122648BA9000E5E8A /* _MNLLayerObservationDelegate.h */,
+			);
+			name = LayerObserver;
+			sourceTree = "<group>";
+		};
+		6693F16E2268547C003A68C2 /* GradientLayerObserver */ = {
+			isa = PBXGroup;
+			children = (
+				6693F16C22685345003A68C2 /* _MNLGradientLayerObserving.h */,
+				6693F16F226854B5003A68C2 /* _MNLLayerObservingPropertyName+Gradient.h */,
+				6693F1702268559C003A68C2 /* _MNLLayerObservingPropertyName+Gradient.m */,
+				6693F17622685825003A68C2 /* _MNLGradientLayerObserver.h */,
+				6693F17722685825003A68C2 /* _MNLGradientLayerObserver.m */,
+				6693F17A22685BBA003A68C2 /* _MNLGradientLayerObservationDelegate.h */,
+			);
+			name = GradientLayerObserver;
+			sourceTree = "<group>";
+		};
+		6693F17F226866BA003A68C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66111B252264672D000E5E8A /* MNLUIView.h */,
+				66111B262264672D000E5E8A /* MNLUIView.m */,
+				6693F1642268522D003A68C2 /* MNLUIGradientView.h */,
+				6693F1652268522D003A68C2 /* MNLUIGradientView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		66B0117522659F53000B4291 /* MNLUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				66B0117822659F53000B4291 /* Info.plist */,
+				66B13B81226814DA000058FC /* MNLUIKitTests.h */,
+				66B0117F2265A304000B4291 /* MNLTestView.xib */,
+				66B1C5CA2268062300E70E36 /* MNLTestViewController.swift */,
+				66B0117622659F53000B4291 /* MNLUIKitTests.swift */,
+			);
+			path = MNLUIKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66111B04226465A9000E5E8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6693F1662268522D003A68C2 /* MNLUIGradientView.h in Headers */,
+				66111B1A226465A9000E5E8A /* MNLUIKit.h in Headers */,
+				66111B272264672D000E5E8A /* MNLUIView.h in Headers */,
+				66111B2E226467E2000E5E8A /* CGColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66111B08226465A9000E5E8A /* MNLUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66111B1D226465A9000E5E8A /* Build configuration list for PBXNativeTarget "MNLUIKit" */;
+			buildPhases = (
+				66111B04226465A9000E5E8A /* Headers */,
+				66111B05226465A9000E5E8A /* Sources */,
+				66111B06226465A9000E5E8A /* Frameworks */,
+				66111B07226465A9000E5E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNLUIKit;
+			productName = MNLUIKit;
+			productReference = 66111B09226465A9000E5E8A /* MNLUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66B0117322659F53000B4291 /* MNLUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B0117C22659F53000B4291 /* Build configuration list for PBXNativeTarget "MNLUIKitTests" */;
+			buildPhases = (
+				66B0117022659F53000B4291 /* Sources */,
+				66B0117122659F53000B4291 /* Frameworks */,
+				66B0117222659F53000B4291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B0117B22659F53000B4291 /* PBXTargetDependency */,
+			);
+			name = MNLUIKitTests;
+			productName = MNLUIKitTests;
+			productReference = 66B0117422659F53000B4291 /* MNLUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66111B00226465A9000E5E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mayu Laierlence";
+				TargetAttributes = {
+					66111B08226465A9000E5E8A = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					66B0117322659F53000B4291 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 66111B03226465A9000E5E8A /* Build configuration list for PBXProject "MNLUIKit" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66111AFF226465A9000E5E8A;
+			productRefGroup = 66111B0A226465A9000E5E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66111B08226465A9000E5E8A /* MNLUIKit */,
+				66B0117322659F53000B4291 /* MNLUIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66111B07226465A9000E5E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B0117222659F53000B4291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B011802265A304000B4291 /* MNLTestView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66111B05226465A9000E5E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B011822265A5E4000B4291 /* _MNLLayerObservingPropertyName.m in Sources */,
+				66111B282264672D000E5E8A /* MNLUIView.m in Sources */,
+				66111B3C226478DA000E5E8A /* _MNLLayerObserver.m in Sources */,
+				6693F1672268522D003A68C2 /* MNLUIGradientView.m in Sources */,
+				66111B2F226467E2000E5E8A /* CGColor.c in Sources */,
+				6693F1712268559C003A68C2 /* _MNLLayerObservingPropertyName+Gradient.m in Sources */,
+				6693F17922685825003A68C2 /* _MNLGradientLayerObserver.m in Sources */,
+				66111B35226475CF000E5E8A /* _MNLLayer.m in Sources */,
+				6693F16B2268528A003A68C2 /* _MNLGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B0117022659F53000B4291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B1C5CB2268062300E70E36 /* MNLTestViewController.swift in Sources */,
+				66B0117722659F53000B4291 /* MNLUIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66B0117B22659F53000B4291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66111B08226465A9000E5E8A /* MNLUIKit */;
+			targetProxy = 66B0117A22659F53000B4291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66111B1B226465A9000E5E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66111B1C226465A9000E5E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66111B1E226465A9000E5E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MNLUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moe.minacle.MNLUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66111B1F226465A9000E5E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MNLUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moe.minacle.MNLUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66B0117D22659F53000B4291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MNLUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moe.minacle.MNLUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66B0117E22659F53000B4291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MNLUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moe.minacle.MNLUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66111B03226465A9000E5E8A /* Build configuration list for PBXProject "MNLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66111B1B226465A9000E5E8A /* Debug */,
+				66111B1C226465A9000E5E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66111B1D226465A9000E5E8A /* Build configuration list for PBXNativeTarget "MNLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66111B1E226465A9000E5E8A /* Debug */,
+				66111B1F226465A9000E5E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B0117C22659F53000B4291 /* Build configuration list for PBXNativeTarget "MNLUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B0117D22659F53000B4291 /* Debug */,
+				66B0117E22659F53000B4291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66111B00226465A9000E5E8A /* Project object */;
+}
