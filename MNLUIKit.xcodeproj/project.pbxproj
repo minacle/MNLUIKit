@@ -31,7 +31,7 @@
 		66B011822265A5E4000B4291 /* _MNLLayerObservingPropertyName.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B011812265A5E4000B4291 /* _MNLLayerObservingPropertyName.m */; };
 		66B1C5CB2268062300E70E36 /* MNLTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1C5CA2268062300E70E36 /* MNLTestViewController.swift */; };
 		66CA38292270472E0068BE25 /* MNLUIControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CA38282270472E0068BE25 /* MNLUIControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66DB6B6E2272E4E90088B090 /* MNLUIGradientButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DB6B6C2272E4E90088B090 /* MNLUIGradientButton.h */; };
+		66DB6B6E2272E4E90088B090 /* MNLUIGradientButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DB6B6C2272E4E90088B090 /* MNLUIGradientButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66DB6B6F2272E4E90088B090 /* MNLUIGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DB6B6D2272E4E90088B090 /* MNLUIGradientButton.m */; };
 /* End PBXBuildFile section */
 
