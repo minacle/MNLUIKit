@@ -14,6 +14,12 @@
 		66111B2F226467E2000E5E8A /* CGColor.c in Sources */ = {isa = PBXBuildFile; fileRef = 66111B2D226467E2000E5E8A /* CGColor.c */; };
 		66111B35226475CF000E5E8A /* _MNLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 66111B33226475CF000E5E8A /* _MNLLayer.m */; };
 		66111B3C226478DA000E5E8A /* _MNLLayerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 66111B3A226478DA000E5E8A /* _MNLLayerObserver.m */; };
+		661241E5226EA0AD006AF0E3 /* MNLUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 661241E3226EA0AD006AF0E3 /* MNLUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661241E6226EA0AD006AF0E3 /* MNLUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 661241E4226EA0AD006AF0E3 /* MNLUIButton.m */; };
+		664400DE227055590034B5D5 /* MNLUIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 664400DD227055590034B5D5 /* MNLUIControl.m */; };
+		664400E222705C490034B5D5 /* NSNumber+CGFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = 664400E022705C490034B5D5 /* NSNumber+CGFloat.m */; };
+		667F5A982272F15700EC4039 /* MNLUIGradientControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 667F5A962272F15700EC4039 /* MNLUIGradientControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		667F5A992272F15700EC4039 /* MNLUIGradientControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 667F5A972272F15700EC4039 /* MNLUIGradientControl.m */; };
 		6693F1662268522D003A68C2 /* MNLUIGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6693F1642268522D003A68C2 /* MNLUIGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6693F1672268522D003A68C2 /* MNLUIGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6693F1652268522D003A68C2 /* MNLUIGradientView.m */; };
 		6693F16B2268528A003A68C2 /* _MNLGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6693F1692268528A003A68C2 /* _MNLGradientLayer.m */; };
@@ -24,6 +30,9 @@
 		66B011802265A304000B4291 /* MNLTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B0117F2265A304000B4291 /* MNLTestView.xib */; };
 		66B011822265A5E4000B4291 /* _MNLLayerObservingPropertyName.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B011812265A5E4000B4291 /* _MNLLayerObservingPropertyName.m */; };
 		66B1C5CB2268062300E70E36 /* MNLTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1C5CA2268062300E70E36 /* MNLTestViewController.swift */; };
+		66CA38292270472E0068BE25 /* MNLUIControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CA38282270472E0068BE25 /* MNLUIControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66DB6B6E2272E4E90088B090 /* MNLUIGradientButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DB6B6C2272E4E90088B090 /* MNLUIGradientButton.h */; };
+		66DB6B6F2272E4E90088B090 /* MNLUIGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DB6B6D2272E4E90088B090 /* MNLUIGradientButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +61,13 @@
 		66111B3A226478DA000E5E8A /* _MNLLayerObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _MNLLayerObserver.m; sourceTree = "<group>"; };
 		66111B3D22647C34000E5E8A /* _MNLLayerObservingPropertyName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLLayerObservingPropertyName.h; sourceTree = "<group>"; };
 		66111B4122648BA9000E5E8A /* _MNLLayerObservationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLLayerObservationDelegate.h; sourceTree = "<group>"; };
+		661241E3226EA0AD006AF0E3 /* MNLUIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIButton.h; sourceTree = "<group>"; };
+		661241E4226EA0AD006AF0E3 /* MNLUIButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNLUIButton.m; sourceTree = "<group>"; };
+		664400DD227055590034B5D5 /* MNLUIControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNLUIControl.m; sourceTree = "<group>"; };
+		664400DF22705C490034B5D5 /* NSNumber+CGFloat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CGFloat.h"; sourceTree = "<group>"; };
+		664400E022705C490034B5D5 /* NSNumber+CGFloat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CGFloat.m"; sourceTree = "<group>"; };
+		667F5A962272F15700EC4039 /* MNLUIGradientControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIGradientControl.h; sourceTree = "<group>"; };
+		667F5A972272F15700EC4039 /* MNLUIGradientControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNLUIGradientControl.m; sourceTree = "<group>"; };
 		6693F1642268522D003A68C2 /* MNLUIGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIGradientView.h; sourceTree = "<group>"; };
 		6693F1652268522D003A68C2 /* MNLUIGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNLUIGradientView.m; sourceTree = "<group>"; };
 		6693F1682268528A003A68C2 /* _MNLGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MNLGradientLayer.h; sourceTree = "<group>"; };
@@ -71,6 +87,9 @@
 		66B13B81226814DA000058FC /* MNLUIKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIKitTests.h; sourceTree = "<group>"; };
 		66B1C5CA2268062300E70E36 /* MNLTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNLTestViewController.swift; sourceTree = "<group>"; };
 		66B6D4ED2269C924008CF717 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		66CA38282270472E0068BE25 /* MNLUIControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIControl.h; sourceTree = "<group>"; };
+		66DB6B6C2272E4E90088B090 /* MNLUIGradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNLUIGradientButton.h; sourceTree = "<group>"; };
+		66DB6B6D2272E4E90088B090 /* MNLUIGradientButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNLUIGradientButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +137,7 @@
 				66111B0C226465A9000E5E8A /* MNLUIKit.h */,
 				66111B3822647781000E5E8A /* MNLUIKit */,
 				66111B2A22646744000E5E8A /* CoreGraphics */,
+				66CA3823226FF5DE0068BE25 /* Foundation */,
 				66111B2322646654000E5E8A /* QuartzCore */,
 				66111B2422646677000E5E8A /* UIKit */,
 			);
@@ -139,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				6693F17F226866BA003A68C2 /* View */,
+				66CA3827227046F60068BE25 /* Controls */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -159,6 +180,7 @@
 				66111B30226470EC000E5E8A /* _MNLViewLayerProjection.h */,
 				6693F16E2268547C003A68C2 /* GradientLayerObserver */,
 				6693F17E22686500003A68C2 /* _MNLGradientViewLayerProjection.h */,
+				664400E3227068790034B5D5 /* ControlStateObserver */,
 			);
 			name = MNLUIKit;
 			sourceTree = "<group>";
@@ -174,6 +196,24 @@
 				66111B4122648BA9000E5E8A /* _MNLLayerObservationDelegate.h */,
 			);
 			name = LayerObserver;
+			sourceTree = "<group>";
+		};
+		661241E2226EA004006AF0E3 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				661241E3226EA0AD006AF0E3 /* MNLUIButton.h */,
+				661241E4226EA0AD006AF0E3 /* MNLUIButton.m */,
+				66DB6B6C2272E4E90088B090 /* MNLUIGradientButton.h */,
+				66DB6B6D2272E4E90088B090 /* MNLUIGradientButton.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		664400E3227068790034B5D5 /* ControlStateObserver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ControlStateObserver;
 			sourceTree = "<group>";
 		};
 		6693F16E2268547C003A68C2 /* GradientLayerObserver */ = {
@@ -212,6 +252,27 @@
 			path = MNLUIKitTests;
 			sourceTree = "<group>";
 		};
+		66CA3823226FF5DE0068BE25 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				664400DF22705C490034B5D5 /* NSNumber+CGFloat.h */,
+				664400E022705C490034B5D5 /* NSNumber+CGFloat.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		66CA3827227046F60068BE25 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				66CA38282270472E0068BE25 /* MNLUIControl.h */,
+				664400DD227055590034B5D5 /* MNLUIControl.m */,
+				667F5A962272F15700EC4039 /* MNLUIGradientControl.h */,
+				667F5A972272F15700EC4039 /* MNLUIGradientControl.m */,
+				661241E2226EA004006AF0E3 /* Button */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -219,9 +280,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667F5A982272F15700EC4039 /* MNLUIGradientControl.h in Headers */,
+				66CA38292270472E0068BE25 /* MNLUIControl.h in Headers */,
+				66DB6B6E2272E4E90088B090 /* MNLUIGradientButton.h in Headers */,
 				6693F1662268522D003A68C2 /* MNLUIGradientView.h in Headers */,
 				66111B1A226465A9000E5E8A /* MNLUIKit.h in Headers */,
 				66111B272264672D000E5E8A /* MNLUIView.h in Headers */,
+				661241E5226EA0AD006AF0E3 /* MNLUIButton.h in Headers */,
 				66111B2E226467E2000E5E8A /* CGColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,13 +390,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DB6B6F2272E4E90088B090 /* MNLUIGradientButton.m in Sources */,
 				66B011822265A5E4000B4291 /* _MNLLayerObservingPropertyName.m in Sources */,
 				66111B282264672D000E5E8A /* MNLUIView.m in Sources */,
 				66111B3C226478DA000E5E8A /* _MNLLayerObserver.m in Sources */,
+				661241E6226EA0AD006AF0E3 /* MNLUIButton.m in Sources */,
 				6693F1672268522D003A68C2 /* MNLUIGradientView.m in Sources */,
 				66111B2F226467E2000E5E8A /* CGColor.c in Sources */,
+				664400DE227055590034B5D5 /* MNLUIControl.m in Sources */,
 				6693F1712268559C003A68C2 /* _MNLLayerObservingPropertyName+Gradient.m in Sources */,
+				664400E222705C490034B5D5 /* NSNumber+CGFloat.m in Sources */,
 				6693F17922685825003A68C2 /* _MNLGradientLayerObserver.m in Sources */,
+				667F5A992272F15700EC4039 /* MNLUIGradientControl.m in Sources */,
 				66111B35226475CF000E5E8A /* _MNLLayer.m in Sources */,
 				6693F16B2268528A003A68C2 /* _MNLGradientLayer.m in Sources */,
 			);
@@ -408,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -463,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

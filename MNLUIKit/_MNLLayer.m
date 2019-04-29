@@ -59,47 +59,66 @@
     [self removeObserver:observer forKeyPath:_MNLLayerObservingShadowOpacityPropertyName];
     [self removeObserver:observer forKeyPath:_MNLLayerObservingShadowPathPropertyName];
     [self removeObserver:observer forKeyPath:_MNLLayerObservingShadowRadiusPropertyName];
-
 }
 
 - (void)_backgroundColorDidChange:(id)sender {
-    [[self _layerObservationDelegate] _backgroundColorDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_borderWidthDidChange:(id)sender {
-    [[self _layerObservationDelegate] _borderWidthDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_borderColorDidChange:(id)sender {
-    [[self _layerObservationDelegate] _borderColorDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_cornerRadiusDidChange:(id)sender {
-    [[self _layerObservationDelegate] _cornerRadiusDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_frameDidChange:(id)sender {
-    [[self _layerObservationDelegate] _frameDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_shadowOpacityDidChange:(id)sender {
-    [[self _layerObservationDelegate] _shadowOpacityDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_shadowRadiusDidChange:(id)sender {
-    [[self _layerObservationDelegate] _shadowRadiusDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_shadowOffsetDidChange:(id)sender {
-    [[self _layerObservationDelegate] _shadowOffsetDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_shadowColorDidChange:(id)sender {
-    [[self _layerObservationDelegate] _shadowColorDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 - (void)_shadowPathDidChange:(id)sender {
-    [[self _layerObservationDelegate] _shadowPathDidChange:self];
+    id delegate = [self _layerObservationDelegate];
+    if ([delegate respondsToSelector:_cmd])
+        [delegate performSelectorOnMainThread:_cmd withObject:self waitUntilDone:YES];
 }
 
 @end
